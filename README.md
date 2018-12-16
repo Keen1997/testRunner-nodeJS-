@@ -3,5 +3,5 @@
 ### To start the test runner
 
 ```
-node test.js
+node test
 ```

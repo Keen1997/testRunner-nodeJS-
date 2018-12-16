@@ -32,6 +32,13 @@ unit['lib.isArticleWord of a word "the handsome" should return true'] = function
   done();
 };
 
+// Assert that the randomAnEvenNumber function returning true
+unit['lib.randomAnEvenNumber should return true'] = function(done){
+  var val = lib.randomAnEvenNumber();
+  assert.equal(val, true);
+  done();
+};
+
 // Assert that the randomAnEvenNumber function returning false
 unit['lib.randomAnEvenNumber should return false'] = function(done){
   var val = lib.randomAnEvenNumber();
